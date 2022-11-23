@@ -1,0 +1,130 @@
+2022-11-22 17:03:16,141 fail2ban.server         [14137]: INFO    --------------------------------------------------
+2022-11-22 17:03:16,141 fail2ban.server         [14137]: INFO    Starting Fail2ban v0.11.2
+2022-11-22 17:03:16,143 fail2ban.observer       [14137]: INFO    Observer start...
+2022-11-22 17:03:16,150 fail2ban.database       [14137]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-11-22 17:03:16,152 fail2ban.database       [14137]: WARNING New database created. Version '4'
+2022-11-22 17:03:16,153 fail2ban.jail           [14137]: INFO    Creating new jail 'sshd'
+2022-11-22 17:03:16,178 fail2ban.jail           [14137]: INFO    Jail 'sshd' uses pyinotify {}
+2022-11-22 17:03:16,183 fail2ban.jail           [14137]: INFO    Initiated 'pyinotify' backend
+2022-11-22 17:03:16,185 fail2ban.filter         [14137]: INFO      maxLines: 1
+2022-11-22 17:03:16,205 fail2ban.filter         [14137]: INFO      maxRetry: 5
+2022-11-22 17:03:16,205 fail2ban.filter         [14137]: INFO      findtime: 600
+2022-11-22 17:03:16,205 fail2ban.actions        [14137]: INFO      banTime: 600
+2022-11-22 17:03:16,205 fail2ban.filter         [14137]: INFO      encoding: UTF-8
+2022-11-22 17:03:16,207 fail2ban.filter         [14137]: INFO    Added logfile: '/var/log/auth.log' (pos = 0, hash = 01541681abfb1111075b798bd1379ee5ee636198)
+2022-11-22 17:03:16,210 fail2ban.jail           [14137]: INFO    Jail 'sshd' started
+2022-11-22 22:41:36,326 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.133 - 2022-11-22 22:41:36
+2022-11-22 22:41:41,093 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.133 - 2022-11-22 22:41:41
+2022-11-22 22:41:47,063 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.133 - 2022-11-22 22:41:46
+2022-11-22 22:41:57,296 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.133 - 2022-11-22 22:41:57
+2022-11-23 14:26:10,494 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:10
+2022-11-23 14:26:10,499 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:10
+2022-11-23 14:26:10,532 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:10
+2022-11-23 14:26:10,543 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:10
+2022-11-23 14:26:10,543 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:10
+2022-11-23 14:26:10,551 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:10
+2022-11-23 14:26:10,551 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:10
+2022-11-23 14:26:10,556 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:10
+2022-11-23 14:26:10,564 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:10
+2022-11-23 14:26:10,586 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:10
+2022-11-23 14:26:10,588 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:10
+2022-11-23 14:26:10,593 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:10
+2022-11-23 14:26:10,619 fail2ban.actions        [14137]: NOTICE  [sshd] Ban 172.16.0.240
+2022-11-23 14:26:13,296 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:12
+2022-11-23 14:26:13,297 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:12
+2022-11-23 14:26:13,298 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:12
+2022-11-23 14:26:13,299 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:12
+2022-11-23 14:26:13,300 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:12
+2022-11-23 14:26:13,300 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:12
+2022-11-23 14:26:13,301 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:12
+2022-11-23 14:26:13,302 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:12
+2022-11-23 14:26:13,303 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:12
+2022-11-23 14:26:13,304 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:12
+2022-11-23 14:26:13,304 fail2ban.filter         [14137]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 14:26:12
+
+
+
+
+
+2022-11-23 16:36:02,865 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:26:12
+2022-11-23 16:36:02,866 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:26:12
+2022-11-23 16:36:02,866 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:26:12
+2022-11-23 16:36:02,871 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:06
+2022-11-23 16:36:02,871 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:06
+2022-11-23 16:36:02,871 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:06
+2022-11-23 16:36:02,872 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:06
+2022-11-23 16:36:02,872 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:09
+2022-11-23 16:36:02,872 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:09
+2022-11-23 16:36:02,873 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:09
+2022-11-23 16:36:02,873 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:09
+2022-11-23 16:36:02,873 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:12
+2022-11-23 16:36:02,873 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:12
+2022-11-23 16:36:02,874 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:12
+2022-11-23 16:36:02,874 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:12
+2022-11-23 16:36:02,875 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:15
+2022-11-23 16:36:02,875 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:15
+2022-11-23 16:36:02,875 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:15
+2022-11-23 16:36:02,875 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:15
+2022-11-23 16:36:02,876 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:18
+2022-11-23 16:36:02,876 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:18
+2022-11-23 16:36:02,876 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:18
+2022-11-23 16:36:02,877 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:18
+2022-11-23 16:36:02,877 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:21
+2022-11-23 16:36:02,877 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:21
+2022-11-23 16:36:02,877 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:21
+2022-11-23 16:36:02,878 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:21
+2022-11-23 16:36:02,878 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:22
+2022-11-23 16:36:02,879 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:23
+2022-11-23 16:36:02,879 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:23
+2022-11-23 16:36:02,880 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:23
+2022-11-23 16:36:02,881 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:53
+2022-11-23 16:36:02,881 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:53
+2022-11-23 16:36:02,882 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:54
+2022-11-23 16:36:02,882 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:54
+2022-11-23 16:36:02,882 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:56
+2022-11-23 16:36:02,883 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:56
+2022-11-23 16:36:02,883 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:56
+2022-11-23 16:36:02,883 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:56
+2022-11-23 16:36:02,884 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:58
+2022-11-23 16:36:02,884 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:58
+2022-11-23 16:36:02,884 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:58
+2022-11-23 16:36:02,884 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:27:58
+2022-11-23 16:36:02,885 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:02
+2022-11-23 16:36:02,885 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:02
+2022-11-23 16:36:02,885 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:02
+2022-11-23 16:36:02,886 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:02
+2022-11-23 16:36:02,886 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:04
+2022-11-23 16:36:02,887 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:04
+2022-11-23 16:36:02,887 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:04
+2022-11-23 16:36:02,887 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:04
+2022-11-23 16:36:02,888 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:07
+2022-11-23 16:36:02,888 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:07
+2022-11-23 16:36:02,889 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:07
+2022-11-23 16:36:02,889 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:08
+2022-11-23 16:36:02,889 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:08
+2022-11-23 16:36:02,890 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:09
+2022-11-23 16:36:02,892 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:39
+2022-11-23 16:36:02,892 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:39
+2022-11-23 16:36:02,893 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.240 - 2022-11-23 16:28:39
+2022-11-23 16:36:03,028 fail2ban.actions        [27345]: NOTICE  [sshd] Ban 172.16.0.240
+2022-11-23 16:36:03,062 fail2ban.actions        [27345]: NOTICE  [sshd] 172.16.0.240 already banned
+2022-11-23 16:36:03,062 fail2ban.actions        [27345]: NOTICE  [sshd] 172.16.0.240 already banned
+2022-11-23 16:36:03,070 fail2ban.actions        [27345]: NOTICE  [sshd] 172.16.0.240 already banned
+2022-11-23 16:36:03,070 fail2ban.actions        [27345]: NOTICE  [sshd] 172.16.0.240 already banned
+2022-11-23 16:36:03,070 fail2ban.actions        [27345]: NOTICE  [sshd] 172.16.0.240 already banned
+2022-11-23 16:36:03,070 fail2ban.actions        [27345]: NOTICE  [sshd] 172.16.0.240 already banned
+2022-11-23 16:36:03,070 fail2ban.actions        [27345]: NOTICE  [sshd] 172.16.0.240 already banned
+2022-11-23 16:36:03,070 fail2ban.actions        [27345]: NOTICE  [sshd] 172.16.0.240 already banned
+2022-11-23 16:36:03,070 fail2ban.actions        [27345]: NOTICE  [sshd] 172.16.0.240 already banned
+2022-11-23 16:36:03,071 fail2ban.actions        [27345]: WARNING [sshd] 172.16.0.240 already banned
+2022-11-23 16:36:03,071 fail2ban.actions        [27345]: WARNING [sshd] 172.16.0.240 already banned
+2022-11-23 16:38:39,071 fail2ban.actions        [27345]: NOTICE  [sshd] Unban 172.16.0.240
+2022-11-23 16:38:57,012 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.241 - 2022-11-23 16:38:57
+2022-11-23 16:38:57,020 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.241 - 2022-11-23 16:38:57
+2022-11-23 16:38:57,028 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.241 - 2022-11-23 16:38:57
+2022-11-23 16:38:57,032 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.241 - 2022-11-23 16:38:57
+2022-11-23 16:38:59,820 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.241 - 2022-11-23 16:38:59
+2022-11-23 16:38:59,835 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.241 - 2022-11-23 16:38:59
+2022-11-23 16:38:59,848 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.241 - 2022-11-23 16:38:59
+2022-11-23 16:38:59,848 fail2ban.filter         [27345]: INFO    [sshd] Found 172.16.0.241 - 2022-11-23 16:38:59
+2022-11-23 16:39:00,319 fail2ban.actions        [27345]: NOTICE  [sshd] Ban 172.16.0.241

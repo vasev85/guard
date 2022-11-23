@@ -1,0 +1,35 @@
+11/23/2022-16:49:26.027167  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 178.248.234.44:443 -> 172.16.0.133:62477
+11/23/2022-16:51:02.161684  [**] [1:2000538:8] ET SCAN NMAP -sA (1) [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.16.0.241:46761 -> 172.16.0.230:3306
+11/23/2022-16:51:02.161675  [**] [1:2000538:8] ET SCAN NMAP -sA (1) [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.16.0.241:46761 -> 172.16.0.230:8080
+11/23/2022-16:51:02.161664  [**] [1:2000538:8] ET SCAN NMAP -sA (1) [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.16.0.241:46761 -> 172.16.0.230:1723
+11/23/2022-16:51:42.636482  [**] [1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:51118 -> 172.16.0.230:3306
+11/23/2022-16:51:42.741078  [**] [1:2010936:3] ET SCAN Suspicious inbound to Oracle SQL port 1521 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:38754 -> 172.16.0.230:1521
+11/23/2022-16:51:42.917063  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:44440 -> 172.16.0.230:1433
+11/23/2022-16:51:42.930120  [**] [1:2002911:6] ET SCAN Potential VNC Scan 5900-5920 [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.16.0.241:48546 -> 172.16.0.230:5906
+11/23/2022-16:51:42.931855  [**] [1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:47962 -> 172.16.0.230:5432
+11/23/2022-16:51:42.984213  [**] [1:2002910:6] ET SCAN Potential VNC Scan 5800-5820 [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.16.0.241:39274 -> 172.16.0.230:5800
+11/23/2022-16:52:43.908325  [**] [1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:44642 -> 172.16.0.230:3306
+11/23/2022-16:52:43.947502  [**] [1:2002911:6] ET SCAN Potential VNC Scan 5900-5920 [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.16.0.241:44642 -> 172.16.0.230:5906
+11/23/2022-16:52:45.072953  [**] [1:2010936:3] ET SCAN Suspicious inbound to Oracle SQL port 1521 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:44642 -> 172.16.0.230:1521
+11/23/2022-16:52:45.077964  [**] [1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:44642 -> 172.16.0.230:5432
+11/23/2022-16:52:45.077929  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:44642 -> 172.16.0.230:1433
+11/23/2022-16:52:45.134164  [**] [1:2002910:6] ET SCAN Potential VNC Scan 5800-5820 [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.16.0.241:44642 -> 172.16.0.230:5801
+11/23/2022-16:53:13.845112  [**] [1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:58199 -> 172.16.0.230:3306
+11/23/2022-16:53:13.892299  [**] [1:2010936:3] ET SCAN Suspicious inbound to Oracle SQL port 1521 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:58199 -> 172.16.0.230:1521
+11/23/2022-16:53:13.913241  [**] [1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:58199 -> 172.16.0.230:5432
+11/23/2022-16:53:13.951130  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:58199 -> 172.16.0.230:1433
+11/23/2022-16:53:29.525304  [**] [1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:44342 -> 172.16.0.230:3306
+11/23/2022-16:53:29.564831  [**] [1:2010936:3] ET SCAN Suspicious inbound to Oracle SQL port 1521 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:44342 -> 172.16.0.230:1521
+11/23/2022-16:53:29.586457  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:44342 -> 172.16.0.230:1433
+11/23/2022-16:53:29.586456  [**] [1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.241:44342 -> 172.16.0.230:5432
+11/23/2022-16:53:29.732990  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.16.0.241:60220 -> 172.16.0.230:22
+11/23/2022-16:53:29.732990  [**] [1:2003068:7] ET SCAN Potential SSH Scan OUTBOUND [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 172.16.0.241:60220 -> 172.16.0.230:22
+11/23/2022-16:53:35.750341  [**] [1:2029340:2] ET INFO TLS Handshake Failure [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 172.16.0.230:443 -> 172.16.0.241:49762
+11/23/2022-16:53:41.861845  [**] [1:2009358:6] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine) [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.16.0.241:39050 -> 172.16.0.230:80
+11/23/2022-16:53:41.861845  [**] [1:2024364:4] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.16.0.241:39050 -> 172.16.0.230:80
+11/23/2022-16:53:41.915862  [**] [1:2009358:6] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine) [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.16.0.241:39076 -> 172.16.0.230:80
+11/23/2022-16:53:41.915862  [**] [1:2024364:4] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.16.0.241:39076 -> 172.16.0.230:80
+11/23/2022-16:53:41.859578  [**] [1:2009358:6] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine) [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.16.0.241:39036 -> 172.16.0.230:80
+11/23/2022-16:53:41.859578  [**] [1:2024364:4] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.16.0.241:39036 -> 172.16.0.230:80
+11/23/2022-16:53:41.965659  [**] [1:2009358:6] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine) [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.16.0.241:39090 -> 172.16.0.230:80
+11/23/2022-16:53:41.965659  [**] [1:2024364:4] ET SCAN Possible Nmap User-Agent Observed [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 172.16.0.241:39090 -> 172.16.0.230:80
